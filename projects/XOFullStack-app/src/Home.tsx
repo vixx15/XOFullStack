@@ -11,7 +11,6 @@ interface HomeProps { }
 
 const Home: React.FC<HomeProps> = () => {
   const [openWalletModal, setOpenWalletModal] = useState<boolean>(false)
-  const [openDemoModal, setOpenDemoModal] = useState<boolean>(false)
   const { activeAddress, signer } = useWallet()
   const { enqueueSnackbar } = useSnackbar()
   const [gameState, setGameState] = useState<TicTacToeGameState | null>(null)
