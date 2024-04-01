@@ -1,0 +1,25 @@
+{
+    "name": "tic_tac_toe_single_player",
+    "methods": [
+        {
+            "name": "play_action_logic",
+            "args": [
+                {
+                    "type": "uint64",
+                    "name": "position_index"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "money_refund_logic",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        }
+    ],
+    "networks": {}
+}
